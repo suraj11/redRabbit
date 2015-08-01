@@ -7,6 +7,8 @@ create_list_node() {
 	if (list == NULL) {
 		printf ("out of memory.\n");
 	}
+	list->next = NULL;
+
 	return list;
 }
 
@@ -29,3 +31,7 @@ insert_list_front(int value, linkedList **list) {
 		
 	*list = node; 
 }
+
+
+
+

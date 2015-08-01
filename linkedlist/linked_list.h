@@ -17,5 +17,10 @@ void printList(linkedList *);
 
 void delete_list_front(linkedList **);
 
+void revert_list(linkedList **);
+
+linkedList* reverse_list_recur(linkedList **node);
+
+linkedList* mergeList(linkedList *list1, linkedList *list2);
 
 #endif
